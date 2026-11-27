@@ -1,0 +1,80 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_RESTAPI_JSON_OUTPUT",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "restapioutput"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "integer"
+				},
+				"Sku": {
+					"type": "string"
+				},
+				"TP 1": {
+					"type": "string"
+				},
+				"TP 2": {
+					"type": "string"
+				},
+				"index": {
+					"type": "string"
+				},
+				"Weight": {
+					"type": "string"
+				},
+				"Catalog": {
+					"type": "string"
+				},
+				"MRP Old": {
+					"type": "string"
+				},
+				"Ajio MRP": {
+					"type": "string"
+				},
+				"Category": {
+					"type": "string"
+				},
+				"Style Id": {
+					"type": "string"
+				},
+				"Paytm MRP": {
+					"type": "string"
+				},
+				"Amazon MRP": {
+					"type": "string"
+				},
+				"Myntra MRP": {
+					"type": "string"
+				},
+				"Flipkart MRP": {
+					"type": "string"
+				},
+				"Limeroad MRP": {
+					"type": "string"
+				},
+				"Snapdeal MRP": {
+					"type": "string"
+				},
+				"Final MRP Old": {
+					"type": "string"
+				},
+				"Amazon FBA MRP": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

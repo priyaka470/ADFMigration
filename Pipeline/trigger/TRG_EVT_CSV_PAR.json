@@ -1,0 +1,30 @@
+{
+	"name": "TRG_EVT_CSV_PAR",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_TRG_SCH_CSV_PAR",
+					"type": "PipelineReference"
+				}
+			},
+			{
+				"pipelineReference": {
+					"referenceName": "PL_TRG_EVNT_CSV_PAR",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/input-csv/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/382fdb3f-ffdd-4265-911e-f7d62f7f060d/resourceGroups/RGDEVINFOSYS/providers/Microsoft.Storage/storageAccounts/sacsvtriggersch",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

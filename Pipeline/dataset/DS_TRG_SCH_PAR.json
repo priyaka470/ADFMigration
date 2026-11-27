@@ -1,0 +1,20 @@
+{
+	"name": "DS_TRG_SCH_PAR",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_TRG_SCH_PAR",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "output-parquet"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

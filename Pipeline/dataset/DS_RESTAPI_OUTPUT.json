@@ -1,0 +1,19 @@
+{
+	"name": "DS_RESTAPI_OUTPUT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_RESTAPI_OUTPUT",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "restapioutput"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
