@@ -1,0 +1,153 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevinfosys"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"DS_SQLTBL_password": {
+			"value": ""
+		},
+		"LS_DELETE_accountKey": {
+			"value": ""
+		},
+		"LS_GETMDATA_accountKey": {
+			"value": ""
+		},
+		"LS_Multiple_CSV_Sink_accountKey": {
+			"value": ""
+		},
+		"LS_Multiple_CSV_Source_accountKey": {
+			"value": ""
+		},
+		"LS_RESTAPI_JSON_OUTPUT_accountKey": {
+			"value": ""
+		},
+		"LS_RESTAPI_OUTPUT_accountKey": {
+			"value": ""
+		},
+		"LS_RESTAPI_PARQUET_OUTPUT_accountKey": {
+			"value": ""
+		},
+		"LS_SNK_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SQLTBL_password": {
+			"value": ""
+		},
+		"LS_SQL_OUTPUT_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SRC_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SRC_SQL_password": {
+			"value": ""
+		},
+		"LS_StorProc_password": {
+			"value": ""
+		},
+		"LS_TRG_SCH_CSV_PAR_accountKey": {
+			"value": ""
+		},
+		"LS_TRG_SCH_PAR_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://sadevinfosys.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://sadevsnkcsv.dfs.core.windows.net/"
+		},
+		"DS_SQLTBL_properties_typeProperties_server": {
+			"value": "LENOVO003"
+		},
+		"DS_SQLTBL_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"DS_SQLTBL_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_DELETE_properties_typeProperties_url": {
+			"value": "https://sadevinsourcecsv.dfs.core.windows.net/"
+		},
+		"LS_GETMDATA_properties_typeProperties_url": {
+			"value": "https://sadevsnkcsv.dfs.core.windows.net/"
+		},
+		"LS_Multiple_CSV_Sink_properties_typeProperties_url": {
+			"value": "https://sadevsnkcsv.dfs.core.windows.net/"
+		},
+		"LS_Multiple_CSV_Source_properties_typeProperties_url": {
+			"value": "https://sadevsnkcsv.dfs.core.windows.net/"
+		},
+		"LS_RESTAPI_JSON_OUTPUT_properties_typeProperties_url": {
+			"value": "https://sadevsnkcsv.dfs.core.windows.net/"
+		},
+		"LS_RESTAPI_OUTPUT_properties_typeProperties_url": {
+			"value": "https://sadevsnkcsv.dfs.core.windows.net/"
+		},
+		"LS_RESTAPI_PARQUET_OUTPUT_properties_typeProperties_url": {
+			"value": "https://sadevsnkcsv.dfs.core.windows.net/"
+		},
+		"LS_REST_API_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/5yDVOt/data"
+		},
+		"LS_SNK_PARQUET_properties_typeProperties_url": {
+			"value": "https://sadevsnkcsv.dfs.core.windows.net/"
+		},
+		"LS_SQLTBL_properties_typeProperties_server": {
+			"value": "LENOVO003"
+		},
+		"LS_SQLTBL_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"LS_SQLTBL_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_OUTPUT_PARQUET_properties_typeProperties_url": {
+			"value": "https://sadevsnkcsv.dfs.core.windows.net/"
+		},
+		"LS_SRC_CSV_properties_typeProperties_url": {
+			"value": "https://sadevinsourcecsv.dfs.core.windows.net/"
+		},
+		"LS_SRC_SQL_properties_typeProperties_server": {
+			"value": "LENOVO003\\PRIYANKA"
+		},
+		"LS_SRC_SQL_properties_typeProperties_database": {
+			"value": "ACS_V1"
+		},
+		"LS_SRC_SQL_properties_typeProperties_userName": {
+			"value": "Sa"
+		},
+		"LS_StorProc_properties_typeProperties_server": {
+			"value": "LENOVO003"
+		},
+		"LS_StorProc_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"LS_StorProc_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_TRG_SCH_CSV_PAR_properties_typeProperties_url": {
+			"value": "https://sacsvtriggersch.dfs.core.windows.net/"
+		},
+		"LS_TRG_SCH_PAR_properties_typeProperties_url": {
+			"value": "https://saparquettriggersch.dfs.core.windows.net/"
+		},
+		"TRG_EVT_CSV_PAR_properties_typeProperties_scope": {
+			"value": "/subscriptions/382fdb3f-ffdd-4265-911e-f7d62f7f060d/resourceGroups/RGDEVINFOSYS/providers/Microsoft.Storage/storageAccounts/sacsvtriggersch"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
