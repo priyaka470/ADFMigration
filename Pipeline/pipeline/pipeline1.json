@@ -11,6 +11,10 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
+					"pipeline": {
+						"referenceName": "PL_DELETE",
+						"type": "PipelineReference"
+					},
 					"waitOnCompletion": true
 				}
 			}
